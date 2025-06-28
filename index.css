@@ -22,13 +22,13 @@ body{
 }
 
 .qr-code-image{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 }
 
 .container {
-    width: 250px;
+    width: 300px;
     /* perfect center of the page */
     position: absolute;
     top: 50%;
