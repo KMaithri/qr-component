@@ -1,30 +1,37 @@
+:root{
+    --background-color: hsl(212, 45%, 89%);
+    --title-color: hsl(218, 44%, 22%);
+    --para-color: hsl(216, 15%, 48%);
+    --attribution-links : hsl(228, 45%, 44%);
+}
+
 .attribution {
-    font-size: 11px;
+    font-size: 0.7rem;
     text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--attribution-links);
 }
 
 body{
     font-family: "Outfit", sans-serif;
     font-style: normal;
-    background-color: hsl(212, 45%, 89%)
+    background-color: var(--background-color)
 }
 
 .title{
     font-weight: bold;
-    color: hsl(218, 44%, 22%);
-    margin: 10px;
-    font-size: 18px;
+    color: var(--title-color);
+    margin: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
 .qr-code-image{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .container {
@@ -35,14 +42,15 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 1.5rem;
+    padding: 1rem;
 }
 
 .para{
-    font-size: 14px;
-    color: hsl(216, 15%, 48%);
-    margin-bottom: 20px;
+    font-size: 1rem;
+    color: var(--para-color);
+    /* margin-bottom: 20px; */
+    margin-inline-end: 1rem;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
 }
