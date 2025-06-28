@@ -1,0 +1,48 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    background-color: hsl(212, 45%, 89%)
+}
+
+.title{
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.qr-code-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.container {
+    width: 250px;
+    /* perfect center of the page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.para{
+    font-size: 14px;
+    color: hsl(216, 15%, 48%);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+}
